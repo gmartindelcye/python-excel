@@ -1,0 +1,17 @@
+[project]
+name = "xcel-dir"
+version = "0.1.0"
+description = "Scripts for managing excel files"
+authors = [
+    {name = "Gabriel Martin del Campo y Eternod",email = "gabrielmartindelcampo@luzcapital.com"},
+]
+dependencies = [
+    "openpyxl>=3.1.2",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
